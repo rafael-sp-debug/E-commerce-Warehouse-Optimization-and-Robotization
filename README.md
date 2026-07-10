@@ -83,28 +83,43 @@ outputs/<scenario>/
 
 ### Step 0 – Install dependencies
 Make sure to install the required libraries via:
+
+```text
 pip install -r requirements.txt
+```
 
 ### Step 1 – Generate the FC layout
 The experimental design of this FC establishes a much wider base spatial matrix for testing.  
+
+```text
 python generador_layout.py --escenario seed44 --seed 44 --ancho 300 --alto 200 --estaciones 20
+```
 
 * The --seed 44 parameter guarantees the pseudo-random generation of a 60,000 square unit layout, internally segmented into 6 quadrants.  
 * Parking areas are enabled in the 4 corners of the warehouse.  
 
 ### Step 2 – Generate discrete orders
+
+```text
 python generador_pedidos.py --escenario seed44 --pedidos 600 --burst --distribucion "5:15:5:20:35:20"
+```
 
 * Orders are introduced through stochastic sampling to force a strong heterogeneous distribution (ZF), bringing the most requested products closer to the delivery area.  
 * The --burst flag simulates critical demand peaks.  
 
 ### Step 3 – Run the simulation (benchmark)
+
+```text
 python demo_final.py --escenario seed44 --robots 20 --ticks 10000
+```
 
 * Generates metrics such as deadlock reduction (close to 100% thanks to the parking policy) and a throughput of up to 61.64 orders/1000t in an optimal operational configuration.  
 
 ### Step 4 – Visualize the simulation
+
+```text
 python visualiza_simulacion.py --escenario seed44 --fps 30 --pasos_por_frame 10
+```
 
 * Generates the simulation video, highlighting robots returning to base/parking in red to facilitate the visual analysis of congestions.  
 
