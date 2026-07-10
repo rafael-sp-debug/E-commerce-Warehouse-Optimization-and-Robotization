@@ -1,5 +1,4 @@
 # E-commerce Warehouse Optimization and Robotization  
-## Multi-robot planning, allocation, and coordination benchmark
 
 ---
 ## Overview
@@ -12,12 +11,12 @@ The system allows you to:
 *   Simulate the **complete FC operation**, including order allocation, route planning, and a "parking" policy for inactive robots.
 *   Obtain **quantitative performance metrics** of the system, such as percentage of completed orders, throughput, deadlocks, waiting ticks, and the P95 indicator.
 
-The project is explicitly designed as an **academic challenge and experimental benchmark**, seeking to validate improvements through structured experimentation.
+> The project is explicitly designed as an **academic challenge and experimental benchmark**, seeking to validate improvements through structured experimentation.
 
-*   ![Python 3.8+](https://img.shields.io/badge/Python_3.8+-3776AB?logo=python&logoColor=white) Core language for the discrete event simulator.
-*   ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white) Used for matrix operations and generating layout grids (`.npy` files).
-*   ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0) Required for rendering the simulation video (`simulacion.mp4`) and generating analytical heatmaps.
-*   ![JSON](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white) For reading and writing configuration files and metrics.
+![Python 3.8+](https://img.shields.io/badge/Python_3.8+-3776AB?logo=python&logoColor=white) Core language for the discrete event simulator.
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white) Used for matrix operations and generating layout grids (`.npy` files).
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0) Required for rendering the simulation video (`simulacion.mp4`) and generating analytical heatmaps.
+![JSON](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white) For reading and writing configuration files and metrics.
 
 --- 
 
@@ -32,6 +31,7 @@ The simulator provides a technically consistent case study, allowing the compari
 ## Demo
 
 
+https://github.com/user-attachments/assets/3b18e775-bde6-4095-a8e3-2de11ef7d70a
 
 
 ---
