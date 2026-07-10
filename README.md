@@ -13,10 +13,11 @@ The system allows you to:
 
 > The project is explicitly designed as an **academic challenge and experimental benchmark**, seeking to validate improvements through structured experimentation.
 
-![Python 3.8+](https://img.shields.io/badge/Python_3.8+-3776AB?logo=python&logoColor=white) Core language for the discrete event simulator.
-![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white) Used for matrix operations and generating layout grids (`.npy` files).
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0) Required for rendering the simulation video (`simulacion.mp4`) and generating analytical heatmaps.
-![JSON](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white) For reading and writing configuration files and metrics.
+![Python 3.8+](https://img.shields.io/badge/Python_3.8+-3776AB?logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white) 
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c) 
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0)
+![JSON](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white)
 
 --- 
 
